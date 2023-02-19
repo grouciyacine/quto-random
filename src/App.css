@@ -27,6 +27,63 @@
 .App-link {
   color: #61dafb;
 }
+.container{
+  position: relative;
+  background-color: #61dafb;
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  height: 100vh; 
+  display: grid;
+  place-items: center;
+}
+#quote-box{
+ 
+  background-color: white;
+  place-content: center;
+  border-radius: 10px;
+  height: 40vh;
+  padding: 2%
+
+}
+.tt{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+.tt >button{
+  display: flex;
+  flex: 1;
+  border: none;
+margin-right: 200px;
+background-color: #61dafb;
+width: 100px;
+height: 60px;
+align-items: center;
+justify-content: center;
+border-radius: 10px;
+margin-bottom: 4px;
+}
+.ttt{
+  display: flex;
+  flex: 1;
+  border: none;
+margin-left: 200px;
+background-color: #61dafb;
+width: 100px;
+height: 60px;
+align-items: center;
+justify-content: center;
+border: none;
+border-radius: 10px;
+margin-bottom: 4px;
+}
+.ttt>a{
+  border: none;
+
+}
 
 @keyframes App-logo-spin {
   from {
